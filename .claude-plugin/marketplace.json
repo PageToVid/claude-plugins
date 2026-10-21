@@ -1,0 +1,14 @@
+{
+  "name": "pagetovid",
+  "owner": { "name": "PageToVid", "url": "https://pagetovid.com" },
+  "metadata": { "description": "PageToVid plugins for Claude Code: make narrated videos of web pages and data from the terminal." },
+  "plugins": [
+    {
+      "name": "pagetovid",
+      "source": "./plugins/pagetovid",
+      "description": "Turn any web page into a narrated video from Claude Code: the PageToVid MCP server plus slash commands for videos, animations, edits, how-tos and recurring shows.",
+      "category": "productivity",
+      "homepage": "https://pagetovid.com/assistants"
+    }
+  ]
+}

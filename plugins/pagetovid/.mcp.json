@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "pagetovid": {
+      "type": "http",
+      "url": "https://pagetovid.com/mcp"
+    }
+  }
+}
