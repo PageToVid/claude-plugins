@@ -15,4 +15,23 @@ Then run `/mcp`, choose **pagetovid** and sign in with your PageToVid account (f
 
 Using Claude.ai, Claude Desktop or ChatGPT instead? Add `https://pagetovid.com/mcp` as a custom connector — see https://pagetovid.com/assistants.
 
+## Try it
+
+```
+/pagetovid:video https://example.com a 30-second vertical ad, bold look, draft first
+/pagetovid:animate our launch post as a 45-second explainer, no website
+/pagetovid:edit last shorten scene 3 and end on "Start free"
+```
+
+Drafts are free; nothing is charged until you render the full film. See the
+[examples](https://pagetovid.github.io/docs/examples) for what comes out, and the
+[tips](https://pagetovid.github.io/docs/tips) for a better film first time.
+
+## More
+
+- [Documentation](https://pagetovid.github.io/docs/) · [MCP tool reference](https://pagetovid.github.io/docs/mcp/tools)
+- [VS Code extension](https://marketplace.visualstudio.com/items?itemName=pagetovid.pagetovid-capture) — Claude Code plans the flows worth filming from your code
+- [Chrome extension](https://chromewebstore.google.com/detail/pagetovid-%E2%80%94-capture/oaiajdabfjpklohkinnacldlojbnjemd) — capture pages and film your app behind its login
+- Bugs and ideas: [open an issue](https://github.com/PageToVid/docs/issues/new/choose) · Follow [@PageToVid on X](https://x.com/PageToVid)
+
 MIT licence.
