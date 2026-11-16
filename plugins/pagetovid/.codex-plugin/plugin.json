@@ -1,0 +1,27 @@
+{
+  "name": "pagetovid",
+  "version": "1.2.0",
+  "description": "Turn any web page into a narrated video from your coding agent: films the real site, writes the script, voices and captions it. Say \"film this\" for a free draft of the project you are working on.",
+  "author": { "name": "PageToVid", "email": "hello@pagetovid.com", "url": "https://pagetovid.com" },
+  "homepage": "https://pagetovid.com/assistants",
+  "repository": "https://github.com/PageToVid/claude-plugins",
+  "license": "MIT",
+  "keywords": ["video", "mcp", "screencast", "demo-video", "launch-video", "voice-over", "captions"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "PageToVid",
+    "shortDescription": "Film your project's website as a narrated video.",
+    "longDescription": "PageToVid opens the public page in a real browser, picks what is worth filming, writes the script, records the site, and adds an AI voice-over with captions. The film-this skill finds your project's URL, makes a free draft, offers the full render at the price your account shows, and drafts a post to share it.",
+    "developerName": "PageToVid",
+    "category": "Productivity",
+    "capabilities": ["Read"],
+    "websiteURL": "https://pagetovid.com",
+    "privacyPolicyURL": "https://pagetovid.com/privacy",
+    "defaultPrompt": [
+      "Film this project's website.",
+      "Make a launch video of my site, free draft first.",
+      "Make a 9:16 video of my site for Reels."
+    ]
+  }
+}

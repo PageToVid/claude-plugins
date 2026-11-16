@@ -5,6 +5,9 @@ Turn any web page into a narrated video without leaving the terminal. PageToVid 
 ## What this plugin adds
 
 - **The PageToVid MCP server** (`https://pagetovid.com/mcp`): the tools to make, edit, translate and publish videos. You sign in with your PageToVid account in the browser the first time (OAuth); no API key is stored in any file.
+- **Skills**
+  - `film-this` — say "film this" or "make a launch video of my site": finds the project's public URL, makes a free draft, offers the full render at your account's price, drafts a post to share it
+  - `pagetovid-video` — which PageToVid tool to call for every other kind of video
 - **Slash commands**
   - `/pagetovid:video <url>` — a narrated video of a web page
   - `/pagetovid:animate <content>` — an animated video from your own content
@@ -24,5 +27,20 @@ The MCP server is PageToVid's own service at pagetovid.com. When you ask for a v
 ```
 
 Then run `/mcp`, choose **pagetovid** and sign in.
+
+Codex reads the same plugin (`.codex-plugin/plugin.json`):
+
+```
+codex plugin marketplace add PageToVid/claude-plugins
+codex plugin add pagetovid@pagetovid
+```
+
+Any agent the skills CLI supports:
+
+```
+npx skills add PageToVid/claude-plugins --skill film-this
+```
+
+then add `https://pagetovid.com/mcp` as a remote MCP server in that agent.
 
 Docs: https://pagetovid.com/assistants · Support: hello@pagetovid.com

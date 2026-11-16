@@ -1,10 +1,10 @@
 {
   "name": "pagetovid",
-  "description": "Turn any web page into a narrated video from Claude Code: films the real site, writes the script, voices and captions it. MCP server, slash commands and a skill that tells Claude when and how to use them.",
-  "version": "1.1.0",
+  "description": "Turn any web page into a narrated video from Claude Code: films the real site, writes the script, voices and captions it. MCP server, slash commands, and skills: say \"film this\" for a free draft of your project's site.",
+  "version": "1.2.0",
   "author": { "name": "PageToVid", "email": "hello@pagetovid.com", "url": "https://pagetovid.com" },
   "homepage": "https://pagetovid.com/assistants",
   "repository": "https://github.com/PageToVid/claude-plugins",
   "license": "MIT",
-  "keywords": ["video", "mcp", "screencast", "demo-video", "voice-over", "captions", "marketing"]
+  "keywords": ["video", "mcp", "screencast", "demo-video", "launch-video", "voice-over", "captions", "marketing"]
 }
