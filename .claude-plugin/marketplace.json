@@ -1,12 +1,16 @@
 {
   "name": "pagetovid",
   "owner": { "name": "PageToVid", "url": "https://pagetovid.com" },
-  "metadata": { "description": "PageToVid plugins for Claude Code: make narrated videos of web pages and data from the terminal." },
+  "metadata": {
+    "description": "PageToVid plugins for coding agents (Claude Code, Codex): make narrated videos of web pages and data from the terminal.",
+    "version": "1.2.0"
+  },
   "plugins": [
     {
       "name": "pagetovid",
       "source": "./plugins/pagetovid",
-      "description": "Turn any web page into a narrated video from Claude Code: the PageToVid MCP server plus slash commands for videos, animations, edits, how-tos and recurring shows.",
+      "version": "1.2.0",
+      "description": "Turn any web page into a narrated video from your coding agent: the PageToVid MCP server, a one-line \"film this\" skill (free draft first), and slash commands for videos, animations, edits, how-tos and recurring shows.",
       "category": "productivity",
       "homepage": "https://pagetovid.com/assistants"
     }
